@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('fon.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* Заменим height на min-height */
+  display: flex;
+  flex-direction: column; /* Изменяем направление flex контейнера на колонку */
+  justify-content: center; /* Выравниваем контент по вертикали */
+  align-items: center; /* Выравниваем контент по горизонтали */
+}
+
+.container {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px; /* Добавим отступ между контейнерами */
+}
+
+.timer {
+  font-size: 48px;
+  margin-top: 20px;
+  text-shadow: 3px 3px black; /* Увеличим размер тени */
+}
+
+h1, h2, h3 {
+  font-size: 36px;
+  text-shadow: 3px 3px black; /* Увеличим размер тени */
+}
